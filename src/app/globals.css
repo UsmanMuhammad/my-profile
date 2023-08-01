@@ -5,7 +5,11 @@
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 237, 237, 233;
+  --main-color: 229, 107, 111;
+  --text-color: 53, 80, 112;
+  --progress-color1: #f1c40f;
+  --progress-color2: #2c3e50;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,10 +22,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(var(--background-end-rgb));
+}
+
+p, h1, h2, h3, h4, h5, div {
+  color: rgb(var(--text-color));
 }

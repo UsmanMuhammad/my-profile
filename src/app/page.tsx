@@ -1,12 +1,15 @@
-
+import { Progress } from "./components/progress"
 
 export default function Home() {
+  const name = 'Muhammad Usman'
+  const title = 'Fullstack Software Developer'
+  const underline = 'Website in Progress...'
   return (
-    <main className="flex min-h-screen flex-col justify-between p-24">
-      <div className="md:container mx-auto bg-slate-400 h-96 rounded-xl">
-        <h5 className="text-7xl font-sans text-center">Muhammad Usman</h5>
-        <h1 className="text-4xl font-sans text-center">Software Engineer</h1>
-      </div>
+    <main className="flex min-h-screen flex-col p-24">
+        <h5 className="text-8xl font-sans text-center">{name}</h5>
+        <h1 className="text-4xl font-sans text-center">{title}</h1>
+        <h1 className="text-2xl font-sans text-center p-12">{underline}</h1>
+        <Progress />
     </main>
   )
 }
