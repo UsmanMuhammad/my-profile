@@ -1,4 +1,4 @@
-import styles from './progress.module.css'
+import styles from "./progress.module.css";
 
 export const Progress = () => {
     return (
@@ -6,5 +6,5 @@ export const Progress = () => {
             <div className={styles.bar}>
             </div>
         </div>       
-    )
-}
+    );
+};
