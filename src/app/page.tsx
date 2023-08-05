@@ -1,4 +1,4 @@
-import { Progress } from "./components/progress";
+import { Progress } from "./components/Progress/progress";
 
 export default function Home() {
   const name = "Muhammad Usman";
