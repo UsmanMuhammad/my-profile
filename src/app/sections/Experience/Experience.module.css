@@ -1,0 +1,8 @@
+.main {
+    background-color: var(--progress-color1);
+}
+
+.current {
+    background-color: rgb(var(--background-end-rgb));
+    width: max-content;
+}
