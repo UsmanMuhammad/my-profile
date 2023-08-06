@@ -16,6 +16,20 @@ const roboto = localFont({
   variable: "--font-roboto"
 });
 
+const inter = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Inter/Inter-Regular.woff",
+      weight: "400"
+    },
+    {
+      path: "../../public/fonts/Inter/Inter-Bold.woff",
+      weight: "700"
+    }
+  ],
+  variable: "--font-inter"
+});
+
 export const metadata: Metadata = {
   title: "Profile - Muhammad",
   description: "Muhammad Usman Portfolio",
@@ -28,7 +42,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.variable}>{children}</body>
+      <body className={inter.variable}>{children}</body>
     </html>
   );
 }
