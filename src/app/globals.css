@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: #cfa947;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 237, 237, 233;
+  --background-end-rgb: 29, 26, 42;
   --main-color: 229, 107, 111;
-  --text-color: #F0F0F0;
+  --text-color: #cfa947;
   --progress-color1: #f1c40f;
   --progress-color2: #2c3e50;
+  --background-light: rgba(29, 26, 42, 0.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,8 +23,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  /* background: rgb(var(--background-end-rgb)); */
-  background: #3C486B;
+  background: rgb(var(--background-end-rgb));
 }
 
 p, h1, h2, h3, h4, h5, div, span {

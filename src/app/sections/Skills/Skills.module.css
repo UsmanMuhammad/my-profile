@@ -1,0 +1,9 @@
+.skillsContainer {
+    background: rgba(44, 39, 63, 0.3);
+    border-radius: 0.5em;
+}
+
+.skills {
+    background-color: rgb(var(--background-end-rgb));
+    width: max-content;
+}
