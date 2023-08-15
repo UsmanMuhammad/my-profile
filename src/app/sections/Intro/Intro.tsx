@@ -2,6 +2,7 @@ import { Progress } from "../../components/Progress/progress";
 import Image from "next/image";
 import linkedinIcon from "../../../../public/icons/linkedin.svg";
 import GithubIcon from "../../../../public/icons/github.svg";
+import { Skills } from "../Skills/Skills";
 
 export function Intro() {
   const name = "Muhammad Usman";
@@ -36,6 +37,7 @@ export function Intro() {
             </a>  
         </div>       
         <h1 className="text-1xl font-sans text-left font-light py-6">{intro}</h1>
+        <Skills />
     </div>
   );
 }
